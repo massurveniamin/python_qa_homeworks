@@ -40,7 +40,7 @@ car_data = {
   'Nissan Titan': ('silver', 2018, 5.6, 'pickup', 35000)
 }
 search_criteria = (2017, 1.6, 36000)
-
+#
 result = []
 for auto, data in car_data.items():
 	if data[1] >= search_criteria[0] and data[2] >= search_criteria[1] and data[4] <= search_criteria[2]:
