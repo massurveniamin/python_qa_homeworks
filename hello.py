@@ -1,0 +1,11 @@
+text = '''"Would you tell me, please, which way I ought to go from here?"
+"That depends a good deal on where you want to get to," said the Cat.
+"I don't much care where ——" said Alice.
+"Then it doesn't matter which way you go," said the Cat.
+"—— so long as I get somewhere," Alice added as an explanation.
+"Oh, you're sure to do that," said the Cat,
+"if you only walk long enough."'''
+
+text = text.lower()
+text = text.replace("long",'old')
+print(text)
